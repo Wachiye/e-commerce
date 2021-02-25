@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: `http:localhost:80/e-commerce/api/`
+  baseURL: `http:localhost:80/e-commerce-api/`
 });
 axios.interceptors.response.use(
   (response) => {
